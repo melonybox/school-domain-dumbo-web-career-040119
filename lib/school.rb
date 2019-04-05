@@ -23,7 +23,6 @@ class School
   end
   
   def sort
-
     @roster = @roster.sort.to_h
     @roster.each do |x, y|
       y.sort!
