@@ -25,8 +25,9 @@ class School
   def sort
 
     @roster = @roster.sort.to_h
-    #@roster.each do |x, y|
-    #  y.sort
-    #end
+    @roster.each do |x, y|
+      binding.pry
+      y.sort
+    end
   end
 end
